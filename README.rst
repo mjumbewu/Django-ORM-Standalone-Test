@@ -6,6 +6,7 @@ Edit the settings.py file to match your database settings, then run::
 
     cd standalone
     python manage.py syncdb
+    python manage.py migrate
 
 Finally, run the sample script with::
 
